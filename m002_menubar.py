@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-最后一次编辑: January 2015
+最后一次编辑: masong 2018
 """
 
 import sys
