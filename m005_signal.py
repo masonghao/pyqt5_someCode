@@ -34,10 +34,6 @@ class WinApp(QWidget):
         self.setWindowIcon(QIcon('img/song.png'))
         self.show()
 
-    def eventSender(self):
-        sender = self.sender()
-        self.statusBar().showMessage(sender.text()+' was is sender.')
-
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_Escape:
             self.close()
